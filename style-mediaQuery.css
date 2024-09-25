@@ -1,0 +1,108 @@
+@media (max-width:700px) {
+    #nav-bar {
+        padding: 0.1vh 1vw;
+    }
+
+    #nav-menu {
+        display: block;
+    }
+
+    #navr {
+        display: none;
+    }
+
+    #hero-section-page1 h1 {
+        font-size: 8vw;
+        line-height: normal;
+    }
+
+    #hero-section-page1 p {
+        font-size: 3vw;
+        line-height: clamp(28px, 25px, 30px);
+    }
+
+    #movingElems {
+        width: 80%;
+        height: 5vh;
+    }
+
+    main #page-2 {
+        overflow: scroll;
+    }
+
+    main #page-2-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    main #page-2 .box-one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    main #page-2 .box-two {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    main #page-2 .box-three {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    main #page-2 .box-four {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    main #page-2 .box-five {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    #page-3-content .page-3-content-text h2 {
+        font-size: clamp(11vw, 8vw, 12vw);
+        line-height: normal;
+    }
+
+    #page-3-content .page-3-content-text h6 {
+        font-size: 2vw;
+    }
+
+    #page-3-content .page-3-content-text h6 span {
+        margin: 0;
+    }
+
+    #page-3-content .page-3-content-text-bottom {
+        width: 80%;
+    }
+
+    #page-3-content .page-3-content-text-bottom a {
+        font-size: 1vw;
+    }
+
+    #page-6 {
+        padding: 0;
+    }
+
+    .page-6-header {
+        padding: 0;
+    }
+
+    #page-6-content {
+        display: none;
+    }
+
+    #page-7 {
+        display: none;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    footer h2 {
+        font-size: 2vw;
+        scale: 1.25;
+    }
+}
